@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Conversion Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <audio autoplay loop id="bgm" volume="0.5">
+      <source src="sound.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="bgv.MP4" type="video/mp4">
+            YOUR BROWSER DOES NOT SUPPORT HTML5 VIDEO
+    </video>
+
+    
+
+    <div>
+        <img src="ipg_logo.png" class="logo">
+    </div>
+    <h1>Money Conversion Game (Section 1)</h1>
+    
+    <div id="money-amount">
+        <h2><span id="questions">0</span></h2>
+    </div>
+    
+    <div id="notes-coins-container">
+        <img src="5sen.png" class="coin note-coin" data-value="0.05">
+        <img src="10sen.png" class="coin note-coin" data-value="0.1">
+        <img src="20sen.png" class="coin note-coin" data-value="0.2">
+        <img src="50sen.png" class="coin note-coin" data-value="0.5">
+         
+    </div>
+    <div id="notes-coins-container">
+        <img src="RM1.png" class="note note-coin" data-value="1">
+        <img src="RM5.png" class="note note-coin" data-value="5">
+        <img src="RM10.png" class="note note-coin" data-value="10">
+        <img src="RM20.png" class="note note-coin" data-value="20">
+        <img src="RM50.png" class="note note-coin" data-value="50">
+        <img src="RM100.png" class="note note-coin" data-value="100">
+    </div>
+
+       
+
+    <div id="selected-notes-coins">
+        <!-- Selected notes/coins will appear here -->
+    </div>
+    
+    <button id="check-answer">Check Answer</button>
+    
+    <div id="result">
+        <!-- Result message will be displayed here -->
+    </div>
+
+    <div>
+        <button id="next-question">Next Question</button>
+    </div>
+    
+    <audio id="correct-sound" src="correct_answer.mp3"></audio>
+    <audio id="incorrect-sound" src="incorrect_answer.mp3"></audio>
+
+
+    <script src="section1.js"></script>
+</body>
+</html>
