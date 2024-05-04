@@ -104,7 +104,7 @@ answer_bank[30]=64.00;
 
 
 function generateOneToTwenty() {
-    const random_number = Math.floor(Math.random() * 11) * 1; // Random integer between 0 and 10
+    const random_number = Math.floor(Math.random() * 31) * 1; // Random integer between 0 and 10
     return random_number;
 }
 
@@ -205,7 +205,7 @@ function checkAnswer() {
     const result = document.getElementById('result');
 
     if (totalAmount == answer_bank[questionNumber]) {
-        result.textContent = 'Correct! You matched the money amount.';
+        result.textContent = '恭喜你答对了！你选了正确的金额。';
         result.style.color = 'green';
 
         // Lower the BGM volume temporarily
@@ -220,7 +220,7 @@ function checkAnswer() {
             bgm.volume = originalBgmVolume;
         }, 4000); 
     } else {
-        result.textContent = 'Incorrect. Try again.';
+        result.textContent = '很可惜答错了。再试一试吧！';
         result.style.color = 'red';
 
         // Lower the BGM volume temporarily
