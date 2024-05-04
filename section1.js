@@ -178,14 +178,14 @@ function checkAnswer() {
     const result = document.getElementById('result');
 
     if (totalAmount == answer_bank[questionNumber]) {
-        result.textContent = 'Correct! You matched the money amount.';
+        result.textContent = '恭喜你答对了！你选择了正确的金额!';
         result.style.color = 'green';
         
         // Play the correct sound
         const correctSound = document.getElementById('correct-sound');
         correctSound.play();
     } else {
-        result.textContent = 'Incorrect. Try again.';
+        result.textContent = '很可惜答错了。再试一试吧！';
         result.style.color = 'red';
         
         // Play the incorrect sound
