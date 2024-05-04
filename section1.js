@@ -1,5 +1,6 @@
 //questions
 const question_bank = [];
+/*
 question_bank[0]="Sarah loves to read, and today she's in a bookstore. She picks up a book she's been wanting for a while, and it costs RM10. Then, she finds a beautiful pen for RM2.75. Thus, she should pay the total amount of RM12.75 to the cashier.";
 question_bank[1]="David is shopping for a new outfit for a special event. He chooses a stylish shirt that costs RM25. Along with that, he picks out a matching tie for RM8.50. Total cost of David's new look is RM33.50";
 question_bank[2]="Tom decides to have a nice meal at his favorite restaurant. He orders a delicious meal for RM12. To quench his thirst, he also orders a drink for RM3.25. The total amount of RM15.25 where Tom needs to pay for his meal and drink.";
@@ -31,9 +32,39 @@ question_bank[27]="Oliver needed some new tech accessories, so he picked up a ph
 question_bank[28]="Nina went on a stationery shopping spree, grabbing a set of notebooks for RM12.80 and stocking up on pens for RM5.40. Her stationery expenses totaled RM18.20.";
 question_bank[29]="James enjoyed a leisurely coffee break, savoring a cup of coffee and indulging in a pastry for RM4.75. His coffee break was a delightful RM9.50 in total.";
 question_bank[30]="Rachel, an avid tennis player, invested in her sport, purchasing a tennis racket for RM55.60 and stocking up on tennis balls for RM8.40. Her sports gear expenses came to RM64.00.";
+*/
 
-
-
+question_bank[0]="莎拉热爱阅读，今天她在书店里拿起了一本她想买很久的书，价格是RM 10。然后，她发现了一支漂亮的钢笔，价格是RM 2.75。因此，她应该向收银员支付总额为RM 12.75。";
+question_bank[1]="大卫正在为一个特别的活动购物。他选择了一件时尚的衬衫，价格是RM 25。除此之外，他还挑选了一条配套的领带，价格是RM 8.50。大卫新造型的总费用是RM 33.50。";
+question_bank[2]="汤姆决定在他最喜欢的餐厅享用美味的一餐。他点了一份美味的套餐，价格是RM 12。为了解渴，他还点了一杯饮料，价格是RM 3.25。汤姆共需要支付RM 15.25。";
+question_bank[3]="艾玛在玩具店，她很兴奋地要买一个新玩具。她选择了一个她一直想要的玩具，价格是RM 15.75。为了满足她的甜食口味，她还拿了一些糖果，价格是RM 0.60。艾玛的总花费是RM 16.35。";
+question_bank[4]="丽莎去理发院剪了一个时尚的发型，价格是RM 18.50。她还做了一个美甲，价格是RM 5。丽莎应该支付RM 23.50的美容服务费。";
+question_bank[5]="杰克是个游戏玩家，他一直在等待一款新的游戏发布。它价格是RM 30。当他玩游戏时，他感到饿了，买了一些零食，价格是RM 4.25。杰克需要支付RM 34.25的娱乐和零食费用。";
+question_bank[6]="奥利维亚计划了看电影。她购买了一张电影票，价格是RM 9.75，还忍不住买了一盒爆米花，价格是RM 2.50。奥利维亚看电影的总花费是RM 12.25。";
+question_bank[7]="亚历克斯想开始骑自行车，所以他花了RM 85买了一辆自行车。安全至关重要，所以他还买了一顶头盔，价格是RM 12。亚历克斯新自行车和头盔的总支出是RM 97。";
+question_bank[8]="索菲想更新她的衣橱。她选择了一件时尚的连衣裙，价格是RM 45。为了完成这个造型，她还买了一双漂亮的鞋子，价格是RM 18.75。索菲需要支付RM 63.75的新衣服。";
+question_bank[9]="詹姆斯在咖啡馆停下来休息。他点了一杯咖啡，价格是RM 4.50，还点了一个美味的三明治，价格是RM 6.25。詹姆斯在咖啡馆的总花费是RM 10.75。";
+question_bank[10]="爱玛在水果市场漫步。她挑了3个多汁的苹果，每个RM 1.50，和4根饱满的香蕉，每根RM 2.25。她的总花费是RM 10。";
+question_bank[11]="大卫在舒适的社区书店开始了一次文学之旅。他选择了2本扣人心弦的小说，每本RM 15，还有一本彩色杂志，价格是RM 4.50。当他离开书店时，他手里拿着总值RM 34.50的知识。";
+question_bank[12]="索菲决定是时候换个衣橱了。她挑了2件时尚的T恤，每件RM 12，还有一条时尚的牛仔裤，价格是RM 25。她的账单总共是RM 49。";
+question_bank[13]="迈克买了一部时尚的智能手机，价格是RM 80，还有一个保护手机的手机壳，价格是RM 5。他的总花费是RM 85。";
+question_bank[14]="奥利弗，一个户外爱好者，踏上了进入荒野的探险之旅。他投资了一顶坚固的帐篷，价格是RM 40，一台可靠的露营炉，价格是RM 20，还有一只舒适的睡袋，价格是RM 15。这次探险的价格总共是RM 75。";
+question_bank[15]="丽莎在一个舒适的咖啡馆点了一杯香浓的卡布奇诺，价格是RM 4，还有一个黄油松饼，价格是RM 3.50。她的总花费是RM 7.50。";
+question_bank[16]="本踏入一个神奇的花园中心。他选购了5包花种，每包RM 2，还有一只浇水壶，价格是RM 5。总价格标签是RM 15。";
+question_bank[17]="露西的购物车装满了3本高质量的素描本，每本RM 6，还有一套颜料，价格是RM 10, 总共是RM 28。";
+question_bank[18]="汤姆，一个宠物爱好者，买了一袋营养丰富的狗粮，价格是RM 8.50，还有一个坚固的狗绳，价格是RM 12。他的总花费是RM 20.50。";
+question_bank[19]="索菲亚，一个勤奋的学生，买了2盒笔，每盒RM 5，还有一个时尚的笔记本，价格是RM 3。总共是RM 13。";
+question_bank[20]="安娜决定备货艺术用品，买了RM 45.20的颜料和两本RM 26.75的素描本，总共RM 71.95。";
+question_bank[21]="马克为了让他的花园开满鲜花，花了RM 18.90买了一束美丽的花束，还加了三盆RM 36.50的盆栽，总共RM 55.40。";
+question_bank[22]="露西去了她最喜欢的书店，选了一本RM 29.95的小说。她还忍不住拿了两本RM 7.20的杂志，使她的总支出为RM 37.15。";
+question_bank[23]="汤姆买了RM 14.30的新鲜水果，RM 12.50的新鲜蔬菜和RM 8.75的零食。最后，他的总账单为RM 35.55。";
+question_bank[24]="索菲买了RM 23.60的狗粮和RM 9.90的新绳。她的总宠物用品花费是RM 33.50。";
+question_bank[25]="大卫给自己买了电影票，价格是RM 13.50。他还放纵了自己，买了一个RM 8.75的大桶爆米花，使他的总支出为RM 22.25。";
+question_bank[26]="爱玛找到了一件价格为RM 42.80的漂亮连衣裙，搭配了一条RM 8.75的可爱围巾。她的服装购物总花费为RM 51.55。";
+question_bank[27]="奥利弗需要一些新的科技配件，所以他买了一个RM 15.30的手机壳和一个RM 19.50的无线充电器，总共RM 34.80的电子产品费用。";
+question_bank[28]="妮娜买了一套RM 12.80的笔记本，还囤了一些RM 5.40的笔。她的文具开支总计RM 18.20。";
+question_bank[29]="詹姆斯享受了一次悠闲的咖啡时间，品尝了一杯咖啡并点了一块RM 4.75令吉的糕点。他美好的咖啡时间总共是RM 9.50。";
+question_bank[30]="瑞秋，一位热爱网球的爱好者，购买了一把RM 55.60的网球拍，并储备了RM 8.40的网球。她的运动装备开支总共是RM 64.00。";
 
 //answers
 const answer_bank = [];
