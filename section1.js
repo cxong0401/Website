@@ -283,4 +283,10 @@ nextQuestionButton.addEventListener('click', nextQuestion);
 
 
 
+const tutorialButton = document.getElementById("tutorial-button");
 
+// Add event listener for the button click
+tutorialButton.addEventListener("click", function() {
+    // Redirect to the tutorial page
+    window.location.href = "tut1.html"; // Replace "tutorial.html" with the actual URL of your tutorial page
+});
