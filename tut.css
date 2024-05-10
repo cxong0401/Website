@@ -1,0 +1,200 @@
+/* Reset some default browser styles */
+body, h1, h2, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #d3d3d3;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#myVideo {
+    width:100vw;
+    height:100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#money-amount {
+    background-color: #f2d7d5;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1000; /* Ensure it's above the overlay */
+}
+
+#notes-coins-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.logo {
+    max-width: :60px;
+    max-height: 100px
+}
+
+.note {
+    max-width: 200px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.note:hover {
+    transform: scale(1.1);
+}
+
+.coin {
+    max-width: 80px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.coin:hover {
+    transform: scale(1.1);
+}
+
+#selected-notes-coins {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#result {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+button#check-answer {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button#check-answer:hover {
+    background-color: #0056b3;
+}
+
+button#next-question {
+    padding: 10px 20px;
+    background-color: #62F61C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button#next-question:hover {
+    background-color: #5BDB1E;
+}
+
+.tutorial-next-question{
+    background-color: #62F61C;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.tutorial-next-question:hover{
+    background-color: #5BDB1E;
+}
+
+.next-tutorial{
+  background-color: #CCCCCC;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 5px;
+}
+
+.next-tutorial:hover {
+  background-color: #555555;
+}
+
+
+.tutorial-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.description-area {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Style for the horizontal navigation menu */
+nav {
+    background-color: #333; /* Background color for the menu */
+    color: #fff; /* Text color for menu items */
+}
+
+/* Style for the horizontal navigation menu items (list items) */
+nav ul {
+    list-style: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox to make the menu items horizontal */
+}
+
+nav ul li {
+    padding: 10px; /* Add padding to each menu item for spacing */
+    text-align: center; /* Center-align the text in menu items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color for menu items */
+    margin-right: 20px; /* Add margin to separate menu items */
+}
+
+nav a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+video {
+    opacity: 0.3;
+}

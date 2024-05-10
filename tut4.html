@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Conversion Game</title>
+    <link rel="stylesheet" href="tut.css">
+</head>
+<body>
+
+    <audio autoplay loop id="bgm" volume="0.5">
+      <source src="sound.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
+    <!--<video autoplay muted loop id="myVideo">
+        <source src="https://drive.google.com/file/d/1JGQLzmPlxjgxqQqz8TteKdFmMPnXrQXt/view?usp=sharing" type="video/mp4">
+            YOUR BROWSER DOES NOT SUPPORT HTML5 VIDEO
+    </video>-->
+    <img src="bgv.png" id="myVideo">
+
+    
+
+    <div>
+        <img src="ipg_logo.png" class="logo">
+    </div>
+    <h1>MY Money Master</h1>
+    
+    <div id="money-amount">
+        <h2>莎拉热爱阅读，今天她在书店里拿起了一本她想买很久的书，价格是RM 10。然后，她发现了一支漂亮的钢笔，价格是RM 2.75。因此，她应该向收银员支付总额为RM 12.75。</h2>
+    </div>
+    
+    <div id="notes-coins-container">
+        <img src="5sen.png" class="coin note-coin" data-value="0.05">
+        <img src="10sen.png" class="coin note-coin" data-value="0.1">
+        <img src="20sen.png" class="coin note-coin" data-value="0.2">
+        <img src="50sen.png" class="coin note-coin" data-value="0.5">
+         
+    </div>
+    <div id="notes-coins-container">
+        <img src="RM1.png" class="note note-coin" data-value="1">
+        <img src="RM5.png" class="note note-coin" data-value="5">
+        <img src="RM10.png" class="note note-coin" data-value="10">
+        <img src="RM20.png" class="note note-coin" data-value="20">
+        <img src="RM50.png" class="note note-coin" data-value="50">
+        <img src="RM100.png" class="note note-coin" data-value="100">
+    </div>
+
+       
+
+    <div id="selected-notes-coins">
+        <!-- Selected notes/coins will appear here -->
+    </div>
+    
+    <button id="check-answer">检查答案</button>
+    
+    <div id="result">
+        <!-- Result message will be displayed here -->
+    </div>
+
+    <div>
+        <a class="tutorial-next-question" href="section1.html">下一道题</a>
+    </div>
+
+    <div class="tutorial-container">
+        <div class="description-area">
+          <h2>步骤4: 继续练习</h2>
+          <p>完成题目后， 可以前往下一道题以巩固使用金钱的经验。</p>
+        </div>
+        
+        <div>
+            <a class="next-tutorial" href="section1.html">完成</a>
+        </div>
+       
+    </div>
+    
+    <audio id="correct-sound" src="correct_answer.mp3"></audio>
+    <audio id="incorrect-sound" src="incorrect_answer.mp3"></audio>
+
+
+    <script src="section1.js"></script>
+</body>
+</html>
